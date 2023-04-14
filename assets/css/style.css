@@ -77,3 +77,33 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
+/* creates the level of zoom for donut image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+
+    background-color: rgba(126, 167, 230, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
