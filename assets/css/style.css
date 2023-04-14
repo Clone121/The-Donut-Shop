@@ -5,9 +5,52 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Merienda One', 'Brush Script MT', cursive;
     font-weight: 300;
     min-height: 100vh;
     color: #3a3a3a;
+}
+
+/*Headings and logo*/
+
+h1, h2 {
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #252525;
+}
+
+#site-logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #site-logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
