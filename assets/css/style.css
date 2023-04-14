@@ -54,3 +54,26 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+#donut-outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+}
+
+#donut-image {
+    height: 400px;
+    width: 100%;
+    background: url(../images/donuts.webp) no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
