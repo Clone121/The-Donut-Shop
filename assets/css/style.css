@@ -107,3 +107,91 @@ h1, h2 {
 
     position: absolute;
 }
+
+#shop {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 250%;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#donut-menu {
+    padding: 1rem 0;
+    margin-bottom: 80px;
+    width: 100%;
+    display: flow-root;
+    background: url(../images/donut-bg.webp) center center / cover no-repeat
+        fixed;
+}
+
+#donut-menu h2 {
+    text-align: left;
+    padding-left: 150px;
+    text-decoration: underline;
+    color: rgb(247, 60, 60);
+}
+
+#frosting {
+    background-color: rgba(165, 42, 42, 0.7);
+    position: relative;
+    clear: both;
+    left: 70px;
+    top: -15px;
+    display: block;
+}
+
+#sprinkles {
+    background-color: rgba(173, 74, 74, 0.7);
+    position: relative;
+    clear: both;
+    margin-top: 10px;
+    margin-left: 70px;
+    display: block;
+}
+
+#flavors {
+    background-color: rgba(252, 128, 128, 0.7);
+    position: relative;
+    clear: both;
+    left: 70px;
+    margin-top: 30px;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#right-column {
+    padding: 10px 5% 0 5%;
+    width: 100%;
+    float: right;
+}
+
+.header-right {
+    text-align: center;
+    width: 100%;
+    float: right;
+    line-height: 2rem;
+    clear: both;
+}
+
+.header-right > p {
+    width: 25%;
+    margin: 20px 0 20px 36%;
+}
+.donuts {
+    width: 20%;
+    margin: 1rem 0;
+    display: block;
+    color: #fff;
+}
