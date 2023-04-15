@@ -195,6 +195,14 @@ li {
     display: block;
     color: #fff;
 }
+
+/*contact site*/
+.form-background {
+    clear: left;
+    background: url(../images/donut-bg.webp) center center / cover no-repeat
+        fixed;
+    height: 900px;
+}
 /*about site*/
 .about-form {
     margin: 150px 10% 0 0;
