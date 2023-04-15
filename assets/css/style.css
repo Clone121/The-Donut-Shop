@@ -195,7 +195,20 @@ li {
     display: block;
     color: #fff;
 }
-
+#video-bg {
+    top: 100px;
+    height: 520px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+video {
+    /** Simulationg background-size: cover */
+    object-fit: cover;
+}
 /* footer */
 
 footer {
