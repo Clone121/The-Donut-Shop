@@ -195,6 +195,25 @@ li {
     display: block;
     color: #fff;
 }
+/*about site*/
+.about-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.5);
+    height: 350px;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    float: left;
+    left: 33%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-form h2 {
+    color: #fff;
+    text-align: center;
+}
 #video-bg {
     top: 100px;
     height: 520px;
