@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,9 +12,10 @@ body {
     color: #3a3a3a;
 }
 
-/*Headings and logo*/
+/*headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: inherit;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -32,13 +33,14 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #site-logo {
+#menu,
+#site-logo {
     line-height: 75px;
 }
 
 #menu li {
     float: right;
-    list-style: none;
+    list-style-type: none;
     margin-right: 30px;
 }
 
@@ -54,6 +56,8 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* donut image and cover text */
 
 #donut-outer {
     height: 400px;
@@ -195,7 +199,6 @@ li {
     display: block;
     color: #fff;
 }
-
 /*contact site*/
 .form-background {
     clear: left;
@@ -216,6 +219,26 @@ li {
     left: 33%;
     padding: 50px;
     border-radius: 10px;
+}
+
+/*about site*/
+.about-form {
+    margin: 76px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.5);
+    height: 520px;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    float: left;
+    left: 33%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-form h2 {
+    color: #fff;
+    text-align: center;
 }
 
 .signup-form h2 {
@@ -256,25 +279,6 @@ textarea {
     border-radius: 5px;
 }
 
-/*about site*/
-.about-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.5);
-    height: 350px;
-    max-width: 500px;
-    position: absolute;
-    top: 0;
-    float: left;
-    left: 33%;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.about-form h2 {
-    color: #fff;
-    text-align: center;
-}
 #video-bg {
     top: 100px;
     height: 520px;
@@ -289,6 +293,7 @@ video {
     /** Simulationg background-size: cover */
     object-fit: cover;
 }
+
 /* footer */
 
 footer {
@@ -312,4 +317,102 @@ footer {
     padding: 0% 5% 0 5%;
     margin-top: 40px;
     color: #3a3a3a;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: #000;
+    }
+    #menu {
+        clear: left;
+        float: left;
+        font-size: 50%;
+        line-height: 20px;
+    }
+    #cover-text {
+        text-align: center;
+        font-size: 50%;
+        height: 100px;
+        right: 30px;
+        background-color: red;
+    }
+    #shop,
+    h2 {
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #cover-text {
+        text-align: center;
+        font-size: 100%;
+        height: 150px;
+        right: 30px;
+    }
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #site-logo {
+        font-size: 150%;
+    }
+    #shop,
+    h2 {
+        font-size: 125%;
+        text-align: center;
+    }
+    #site-logo {
+        text-align: center;
+        float: left;
+        margin-left: 50px;
+    }
+    #donut-menu h2 {
+        margin-left: 50px;
+        padding-left: 25px;
+    }
+    .header-right > p {
+        text-align: center;
+        width: 75%;
+        margin-left: 25px;
+    }
+
+    .donuts {
+        width: 50%;
+    }
+
+    .about-form {
+        margin: 150px 0 0 0;
+        height: 400px;
+        width: 320px;
+        left: 6%;
+        padding: 10px;
+    }
+
+    .about-form h2 {
+        font-size: 100%;
+    }
+    .signup-form {
+        margin: 50px 10% 0 0;
+        left: 10%;
+    }
+    .submit-button {
+        margin-left: 20%;
+    }
+    textarea {
+        height: 110px;
+    }
+}
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    h1,
+    h2 {
+        font-size: 1rem;
+    }
+    #donut-menu h2 {
+        margin-left: 50px;
+        padding-left: 25px;
+    }
 }
