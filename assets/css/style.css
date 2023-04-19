@@ -8,7 +8,7 @@
 body {
     font-family: 'Merienda One', 'Brush Script MT', cursive;
     font-weight: 300;
-    min-height: 100vh;
+    min-height: 120vh;
     color: #3a3a3a;
 }
 
@@ -211,7 +211,7 @@ li {
     margin: 150px 10% 0 0;
     color: #fff;
     text-align: center;
-    background-color: #3c3c3c80;
+    background-color: rgba(60, 60, 60, 0.8);
     height: 630px;
     max-width: 400px;
     position: absolute;
@@ -223,10 +223,10 @@ li {
 
 /*about site*/
 .about-form {
-    margin: 76px 10% 0 0;
+    margin: 120px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.5);
-    height: 520px;
+    height: 400px;
     max-width: 500px;
     position: absolute;
     top: 0;
@@ -258,7 +258,7 @@ li {
 
 .submit-button {
     margin-top: 10px;
-    margin-left: 33%;
+    margin-left: 30%;
     border-radius: 4px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -292,6 +292,7 @@ textarea {
 video {
     /** Simulationg background-size: cover */
     object-fit: cover;
+    z-index: -1;
 }
 
 /* footer */
@@ -384,7 +385,6 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-
     #menu {
         clear: left;
         float: left;
@@ -394,12 +394,13 @@ footer {
     #cover-text {
         text-align: center;
         font-size: 100%;
-        height: 120px;
+        height: 140px;
         right: 30px;
-        
     }
+
     #shop,
-    h2 {
+    h2,
+    h3 {
         font-size: 100%;
         text-align: center;
     }
