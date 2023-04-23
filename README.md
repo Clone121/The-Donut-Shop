@@ -54,12 +54,12 @@ where you can give feedback, ask questions and request new flavors, for example.
 ## Testing
 I Used W3C Markup Validator to test my html,and there were no errors.
 
-Link to [W3C Validator](https://validator.w3.org/).
+![App Screenshot](https://github.com/Clone121/The-Donut-Shop/blob/main/media/index-html-valid.png?raw=true)
 
 
 I Used W3C Jigsaw Validator to test my CSS,and there were no errors.
 
-Link to [W3C Validator](https://jigsaw.w3.org/css-validator/).
+![App Screenshot](https://github.com/Clone121/The-Donut-Shop/blob/main/media/CSS-valid.png?raw=true)
 
 
 ### Lighthouse
